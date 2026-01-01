@@ -32,5 +32,29 @@ venv.bak/
 Pipfile
 !.env.example
 
+# Poetry
+poetry.lock
+
 # Exported results file
 django-queries-results.html
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Docker
+*.log
+
+# Database volumes
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
